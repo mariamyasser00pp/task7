@@ -1,0 +1,133 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: cairo;
+    src: url(fonts/Cairo-VariableFont_slnt\,wght.ttf);
+}
+
+/*start nav*/
+
+nav {
+    font-family: cairo;
+
+}
+
+nav div h1 {
+
+    font-weight: 700;
+    letter-spacing: 7px;
+
+}
+
+nav .icon {
+    font-size: 20px;
+}
+
+nav .icon a i {
+    color: #717172;
+}
+
+nav .icon a:hover {
+    background-color: white;
+    padding: 20px 2px;
+
+}
+
+nav .icon a i:hover {
+    color: black;
+}
+
+nav .nav-li ul li a {
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+    font-weight: 600;
+    font-family: cairo;
+
+}
+
+nav .nav-li ul li a:hover {
+    color: black;
+}
+
+/*end nav*/
+/*start header*/
+
+
+header #search i {
+    color: white;
+
+}
+
+header #search {
+    background-color: black;
+
+}
+
+header #input {
+    border: 1px solid #c7c7c7;
+
+}
+
+header #headerlink a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: 600;
+    font-family: cairo;
+
+}
+
+
+/*end header*/
+
+#shop {
+    font-family: cairo;
+}
+
+#shop #style {
+    font-weight: 700;
+}
+
+#image p {
+
+    font-family: cairo;
+    font-weight: 600;
+
+}
+/*img2*/
+#img2 div img{
+    margin: 20px 0px;
+    width: 100%;
+}
+
+/*end img2*/
+/*footer*/
+#footer div h6,
+p {
+    font-size: 13px;
+}
+
+#header .social a i {
+    font-size: 25px;
+}
+
+#footer2 #App {
+    padding-left: 46px;
+
+}
+
+#footer2 #follow {
+    padding-left: 257px;
+}
+
+#footer2 div sub:hover {
+    border: 1px solid black;
+}
+
+
+
+/*end footer*/
